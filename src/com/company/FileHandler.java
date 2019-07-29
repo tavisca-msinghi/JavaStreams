@@ -9,7 +9,7 @@ public class FileHandler {
     }
 
     private static void readFileContents() {
-        FileReader myFileReader =new FileReader();
+        FileReader myFileReader = new FileReader();
         try{
             String contents = myFileReader.readFile("DataFile.txt");
             System.out.println("Contents of file is" + contents);
