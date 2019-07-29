@@ -7,6 +7,7 @@ public class PrimitiveDataHandler {
         writeToFile("HardCodedOutput.txt");
         readFromFile("HardCodedOutput.txt");
     }
+    //Primitve StreamsHandler
     public static void writeToFile(String fileName) throws FileNotFoundException {
         FileOutputStream fileOutputStream = new FileOutputStream(fileName);
         DataOutputStream writer = new DataOutputStream(fileOutputStream);
